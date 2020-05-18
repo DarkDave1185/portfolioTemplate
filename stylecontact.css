@@ -27,3 +27,12 @@ label {
 .space { 
     height: 200px;    
 }
+
+.contact {
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+p {
+    margin-bottom: 10px;
+}
