@@ -79,15 +79,12 @@ img {
     background-color: none;
 }
 
-.navbar-brand {
-    float: right;
-}
-
 .navbar {
     padding: 0px;
 }
 
-.navbar-brand {
+.navbar-brand1 {
+    float: right;
     color: floralwhite;
 }
 
@@ -120,6 +117,3 @@ ul {
     background-color: #111;
   }
   
-  .active {
-    background-color: #4CAF50;
-  }
