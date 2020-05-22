@@ -117,3 +117,17 @@ ul {
     background-color: #111;
   }
   
+/*added from bootstrap style sheet*/
+/*added to get navbar-brand to show*/
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: floralwhite;
+  }
+  
