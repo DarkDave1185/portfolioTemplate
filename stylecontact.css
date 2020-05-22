@@ -1,13 +1,19 @@
 * {
     box-sizing: border-box;
-    text-align: center;
     margin-inline: 15px;
   }
 
+  html {
+    /* tutor* to fill page background*/ 
+    height: 100%;
+ }
+
 body {
     background-image: url("background.jpg");
-    background-size: 1300px;
     background-position: center;
+    /* tutor* attempt center bg pic with border top&bottom*/
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-left: 35px;
     margin-right: 35px;
 }
@@ -31,6 +37,10 @@ label {
 .contact {
     justify-content: flex-end;
     flex-direction: column;
+    position: fixed;
+    bottom: 100px;
+    right: 35px;
+    text-align: right;
 }
 
 p {
