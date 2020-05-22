@@ -17,9 +17,11 @@ This page is not active to send/recieve messages. The layout is setup to go to "
 
 Bootstrap & Flexbox
 Aylan Mello - Tutor (was able to assist with background issues)
-
+Slack - #learning-assistants
 ## Screenshot- 
 
 image provided in repository
 
 ## Deployment Link- 
+
+https://github.com/DarkDave1185/portfolioTemplate
