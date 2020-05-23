@@ -104,6 +104,8 @@ ul {
     position: left;
     bottom: 0;
     width: 100%;
+    /*used for navbar spacing*/
+    justify-content: space-between;
   }
   
   li {
@@ -134,11 +136,12 @@ ul {
     font-size: 10px;
     line-height: inherit;
     white-space: nowrap;
-    color: floralwhite;
+    color: rgb(42, 93, 16);
     float: right;
 
   }
   
   span {
       font-size: 8px;
+      justify-content: flex-start;
   }

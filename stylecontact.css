@@ -66,6 +66,8 @@ ul {
     position: fixed;
     bottom: 0;
     width: 100%;
+    /*used for navbar spacing*/
+    justify-content: space-between;
   }
   
   li {
@@ -86,4 +88,26 @@ ul {
   
   .active {
     background-color: #4CAF50;
+  }
+
+/*added from bootstrap style sheet*/
+/*added to get navbar-brand to show*/
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 10px;
+    line-height: inherit;
+    white-space: nowrap;
+    color: rgb(42, 93, 16);
+    float: right;
+
+  }
+  
+  span {
+      font-size: 8px;
+      justify-content: flex-start;
   }
