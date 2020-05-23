@@ -81,11 +81,16 @@ img {
 
 .navbar {
     padding: 0px;
+    float: right;
 }
 
 .navbar-brand1 {
     float: right;
     color: floralwhite;
+}
+
+a {
+    float:right;
 }
 
 /*w3schools example tweaked*/
@@ -96,13 +101,13 @@ ul {
     padding: 0;
     /*overflow: hidden;*/
     background-color: #333;
-    /*position: fixed;*/
+    position: left;
     bottom: 0;
     width: 100%;
   }
   
   li {
-    float: right;
+    float: left;
   }
   
   li a {
@@ -124,11 +129,16 @@ ul {
     display: inline-block;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 10px;
     line-height: inherit;
     white-space: nowrap;
     color: floralwhite;
-    
+    float: right;
+
   }
   
+  span {
+      font-size: 8px;
+  }
