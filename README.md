@@ -20,7 +20,9 @@ This page is not active to send/recieve messages. The layout is setup to go to "
 *Slack - #learning-assistants
 ## Screenshot- 
 
-![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/aboutScreen.PNG "aboutScreen")
+![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/aboutScreen1.jpg "aboutScreen")
+![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/contactScreen1.jpg "contactScreen")
+![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/portScreen1.jpg "portScreen")
 
 ## Deployment Link- 
 
