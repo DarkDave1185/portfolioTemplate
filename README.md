@@ -1,6 +1,6 @@
 # portfolioTemplate
 
-Created three different pages for basic portfolio website. Each page has a responsive layout design for different veiwing. The layout for each page is similar so the viewer  can easily remeber accessing the website. The distictive layout is meant to grasp the viewers attention and also
+Created three different pages for basic portfolio website. Each page has a responsive layout design for different veiwing. The layout for each page is minimal so the viewer  can easily remeber accessing the website. The distictive layout is meant to grasp the viewers attention and also make the user curious for what else might be on the website.
 
 ## indexCanvas-
 
@@ -18,7 +18,7 @@ This page is not active to send/recieve messages. The layout is setup to go to "
 
 ## Used-
 
-*Bootstrap & Flexbox || 
+*Bootstrap & Flexbox & GSAP|| 
 *Aylan Mello - Tutor (was able to assist with background issues) || 
 *Slack - #learning-assistants
 *CodePen.io
@@ -26,9 +26,10 @@ This page is not active to send/recieve messages. The layout is setup to go to "
 
 ## Screenshot- 
 
-![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/aboutScreen1.jpg "aboutScreen")
-![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/contactScreen1.jpg "contactScreen")
-![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/portScreen1.jpg "portScreen")
+![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/screen1.jpg "indexScreen")
+![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/screen2.jpg "aboutScreen")
+![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/screen4.jpg "contactScreen")
+![alt text](https://github.com/DarkDave1185/portfolioTemplate/blob/master/screens/screen3.jpg "portScreen")
 
 ## Deployment Link- 
 
