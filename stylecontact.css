@@ -95,7 +95,7 @@ li a:hover:not(.active) {
     background-color: rgb(235, 143, 38);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 415px) {
     body {
         background-image: url("slidesShow/10.jpg");
         background-position: center;
