@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!--added sme style sheet for same effects-->
-    <link rel="stylesheet" href="styleabout.css">
+    <!--added some style sheet for same effects-->
+    <link rel="stylesheet" href="styleindex.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
     <title>mainPage</title>
 </head>
 <body>
-    <div class="container">
-        <!-- page title row -->
-        <div class="row">
-            <!--pg title-->
-            <div class="col-12 text-center">
-              <h1>DavidGDawkins</h1>
-            </div>
-        </div>
-        <!---->
+    <!--welcome setup-->
+    <div class="row">
+        <a href="#" class="bio welcome">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Welcome
+        </a>
     </div>
+    <!--canvas setup-->
+    <canvas id="scene">
+    </canvas>
+    
+    <!--navbar setup-->
+    <!--navbar positioned on bottom-->
     <nav class="navbar fixed-bottom">
-        <ul class="nav nav-tabs">
+        <ul class="d-flex justify-content-start">
             <li class="nav-item">
             <a class="nav-link" href="aboutME.html">aboutMe</a>
             </li>
@@ -30,14 +37,13 @@
             <li class="nav-item">
             <a class="nav-link" href="contactMe.html">contactMe</a>
             </li>
-            <!--added span for dead space on navbar-->
-            <span class="navbar-brand mb-0 h1"> . . < !-- HTML --! > . . . / * CSS * / . . . / / JS / / . . </span>
-            <li style="float: right">
-                <a class="nav-item nav-link mr-2" href="index.html">
+            <li class="nav-active">
+                <a class="d-flex justify-content-end active" id="live" href="index.html">
                     DavidGDawkins
                 </a>
             </li>
         </ul>
     </nav>
+<script src="indexcanvas.js"></script>
 </body>
 </html>

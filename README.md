@@ -1,4 +1,4 @@
-
+a
 # portfolioTemplate
 
 Created three different pages for basic portfolio website. Each page has a responsive layout design for different veiwing. The layout for each page is similar so the viewer  can easily remeber accessing the website. The distictive layout is meant to grasp the viewers attention and also

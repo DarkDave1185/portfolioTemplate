@@ -1,0 +1,133 @@
+/*canvas setup*/
+/*remove the default margins on the body and prevent scrollbars from appearing*/
+body{
+    margin: 0;
+    overflow: hidden;
+}
+/*we want our canvas to be full screen*/
+/*width and height at 100% of the viewport*/
+canvas{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+/*navbar setup*/
+/*w3schools example tweaked*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /*used for navbar spacing*/
+    justify-content: space-between;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  #live{
+      color: greenyellow;
+  }
+  #live:hover {
+    color: rgb(219, 49, 143);
+  }
+  
+  .nav-link:hover {
+    color: rgb(235, 143, 38);
+  }
+  
+  .active {
+    background-color: rgb(235, 143, 38);
+  }
+  /*welcome setup*/
+  .row{
+      justify-content: center;
+  }
+  /*button effects settings*/
+  .bio{
+    position: fixed;
+    margin: 0;
+
+    /*color*/
+    padding: 15px 30px;
+    color: rgb(138, 114, 71);
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    }
+    .bio:hover{
+        color: whitesmoke;
+        background-color: rgb(32, 148, 243, 0.5);
+        box-shadow: 0 0 10px rgb(32, 148, 243), 0 0 40px #2196f3, 0 0 80px #2196f3;
+    }
+    .bio span{
+        display: block;
+        position: absolute;
+    }
+    .bio span:nth-child(1){
+        top: 0px;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, rgb(243, 152, 33));
+    }
+    .bio:hover span:nth-child(1){
+        left: 100%;
+        transition: 5s;
+    }
+    .bio span:nth-child(3){
+        bottom: 0px;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, transparent, rgb(243, 152, 33));
+    }
+    .bio:hover span:nth-child(3){
+        right: 100%;
+        transition: 5s;
+        transition-delay: 2.5s;
+    }
+    .bio span:nth-child(2){
+        top: -100%;
+        right: 0px;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, rgb(243, 152, 33));
+    }
+    .bio:hover span:nth-child(2){
+        top: 100%;
+        transition: 3s;
+        transition-delay: 1.5s;
+    }
+    .bio span:nth-child(4){
+        bottom: -100%;
+        left: 0px;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, transparent, rgb(243, 152, 33));
+    }
+    .bio:hover span:nth-child(4){
+        bottom: 100%;
+        transition: 5s;
+        transition-delay: 4s;
+    }
+    .welcome{
+        margin: 0;
+    }
