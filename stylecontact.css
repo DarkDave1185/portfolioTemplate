@@ -95,6 +95,12 @@ li a:hover:not(.active) {
     background-color: rgb(235, 143, 38);
 }
 
+.fab {
+    font-size: 36px;
+    color: white;
+    margin: 12px 4px 4px 4px;
+}
+
 @media screen and (max-width: 415px) {
     body {
         background-image: url("slidesShow/10.jpg");

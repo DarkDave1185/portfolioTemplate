@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,11 @@
     <!--added some style sheet for same effects-->
     <link rel="stylesheet" href="styleindex.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <!--fontawesome for navbar icons-->
+    <script src="https://kit.fontawesome.com/39871799b2.js" crossorigin="anonymous"></script>
     <title>mainPage</title>
 </head>
+
 <body>
     <!--welcome setup-->
     <div class="row">
@@ -16,34 +20,36 @@
             <span></span>
             <span></span>
             <span></span>
-            <span></span>
-            Welcome
+            <span></span> Welcome
         </a>
     </div>
     <!--canvas setup-->
     <canvas id="scene">
     </canvas>
-    
+
     <!--navbar setup-->
     <!--navbar positioned on bottom-->
     <nav class="navbar fixed-bottom">
         <ul class="d-flex justify-content-start">
             <li class="nav-item">
-            <a class="nav-link" href="aboutME.html">aboutMe</a>
+                <a class="nav-link" href="aboutME.html">aboutMe</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="myPortfolio.html">myPortfolio</a>
+                <a class="nav-link" href="myPortfolio.html">myPortfolio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="contactMe.html">contactMe</a>
+                <a class="nav-link" href="contactMe.html">contactMe</a>
             </li>
             <li class="nav-active">
                 <a class="d-flex justify-content-end active" id="live" href="index.html">
                     DavidGDawkins
                 </a>
             </li>
+            <a href="https://www.linkedin.com/in/david-dawkins-756385177/" class="fab fa-linkedin"></a>
+            <a href="https://github.com/DarkDave1185" class="fab fa-github-square"></a>
         </ul>
     </nav>
-<script src="indexcanvas.js"></script>
+    <script src="indexcanvas.js"></script>
 </body>
+
 </html>

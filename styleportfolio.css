@@ -1,28 +1,34 @@
 /*cahnges made*/
+
 .pic1 {
     background-image: url("slidesShow/1.jpg");
     border: black solid 2px;
 }
+
 .pic2 {
     background-image: url("slidesShow/2.jpg");
     border: black solid 2px;
 }
+
 .pic3 {
     background-image: url("slidesShow/3.jpg");
     border: black solid 2px;
 }
+
 .pic4 {
     background-image: url("slidesShow/4.jpg");
     border: black solid 2px;
 }
+
 .pic5 {
     background-image: url("slidesShow/5.jpg");
     border: black solid 2px;
 }
 
-html, body {
+html,
+body {
     width: 100%;
-    height:100%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -54,13 +60,15 @@ h1 {
     background-repeat: none;
     background-position: center;
 }
-    
+
 .item:hover {
     flex: 6;
     /*remeber to as seconds to ease time allotment*/
     transition: flex 0.8s ease;
     /**/
 }
+
+
 /*w3schools example tweaked*/
 
 ul {
@@ -74,34 +82,42 @@ ul {
     width: 100%;
     /*used for navbar spacing*/
     justify-content: space-between;
-  }
-  
-  li {
+}
+
+li {
     float: right;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
+}
+
+li a:hover:not(.active) {
     background-color: #111;
-  }
-  #live{
-      color: greenyellow;
-  }
-  #live:hover {
+}
+
+#live {
+    color: greenyellow;
+}
+
+#live:hover {
     color: rgb(219, 49, 143);
-  }
+}
 
-  .nav-link:hover {
+.nav-link:hover {
     color: rgb(235, 143, 38);
-  }
+}
 
-  .active {
+.active {
     background-color: rgb(235, 143, 38);
-  }
+}
+
+.fab {
+    font-size: 36px;
+    color: white;
+    margin: 12px 4px 4px 4px;
+}
