@@ -30,6 +30,8 @@ canvas {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 120px;
+    margin: 0;
+    font-size: 45px;
 }
 
 
@@ -170,18 +172,53 @@ li a:hover:not(.active) {
     transition-delay: 4s;
 }
 
-.welcome {
-    margin: 0;
-}
-
 .fab {
     font-size: 36px;
     color: white;
     margin: 12px 4px 4px 4px;
 }
 
-@media screen and (min-width: 360px) {}
+@media screen and (min-width: 360px) {
+    .welcome {
+        position: absolute;
+        background-color: rgba(51, 194, 250, 0.3);
+        box-shadow: 0 0 10px rgba(51, 194, 250, 0.3), 0 0 40px rgba(51, 194, 250, 0.3), 0 0 80px rgba(51, 194, 250, 0.3);
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 120px;
+        margin: 0;
+        font-size: 45px;
+    }
+}
 
-@media screen and (min-width: 411px) {}
+@media screen and (min-width: 411px) {
+    .welcome {
+        position: absolute;
+        background-color: rgba(51, 194, 250, 0.3);
+        box-shadow: 0 0 10px rgba(51, 194, 250, 0.3), 0 0 40px rgba(51, 194, 250, 0.3), 0 0 80px rgba(51, 194, 250, 0.3);
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 120px;
+        margin: 0;
+        font-size: 55px;
+    }
+}
 
-@media screen and (min-width: 360px) {}
+@media screen and (min-width: 768px) {
+    .welcome {
+        position: absolute;
+        background-color: rgba(51, 194, 250, 0.3);
+        box-shadow: 0 0 10px rgba(51, 194, 250, 0.3), 0 0 40px rgba(51, 194, 250, 0.3), 0 0 80px rgba(51, 194, 250, 0.3);
+        text-decoration: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 120px;
+        margin: 0;
+        font-size: 100px;
+    }
+}
