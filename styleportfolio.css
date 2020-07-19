@@ -1,4 +1,4 @@
-/*cahnges made*/
+/*changes made*/
 
 .pic1 {
     background-image: url("slidesShow/1.jpg");
@@ -23,6 +23,26 @@
 .pic5 {
     background-image: url("slidesShow/5.jpg");
     border: black solid 2px;
+}
+
+
+/*add project links*/
+
+.project1 {
+    background-image: url("screens/passwordScreen.jpg");
+    background-size: unset;
+}
+
+.project2 {
+    background-image: url("screens/athenaScreen.jpg");
+}
+
+.project3 {
+    background-image: url("screens/passwordScreen.jpg");
+}
+
+.project4 {
+    background-image: url("screens/passwordScreen.jpg");
 }
 
 html,
