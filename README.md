@@ -33,4 +33,4 @@ This page is not active to send/recieve messages. The layout is setup to go to "
 
 ## Deployment Link- 
 
-https://github.com/DarkDave1185/portfolioTemplate
+https://darkdave1185.github.io/portfolioTemplate/
